@@ -5,16 +5,30 @@
     android:orientation="vertical"
     android:id="@+id/main"
     android:gravity="center"
-    android:background=""
+    android:background="#2A622D"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
-    
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        app:tint="@color/white"
+        android:layout_marginBottom="200dp"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="To-Do List"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"/>
+
 
 </LinearLayout>
